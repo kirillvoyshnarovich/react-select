@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Sofia Sans";
+  src: local('"Sofia Sans"'), url(../public//Sofia_Sans/static/SofiaSans-Regular.ttf) format('truetype');
+}
+
+:root {
+  font-family: "Sofia Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #BAC1CC;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #BAC1CC;
+}
